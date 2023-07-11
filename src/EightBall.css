@@ -1,0 +1,27 @@
+
+
+.EightBall-background {
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.EightBall-content {
+    position: relative;
+    margin: auto;
+    width: 180px;
+    height: 180px;
+    border-radius: 90px;
+}
+
+.Eightball-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 16px;
+}
